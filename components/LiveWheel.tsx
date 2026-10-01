@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { SLOTS_DATA, GameStatus, SlotItem } from '../types/game';
-import { soundManager } from '../utils/audio';
+import { SLOTS_DATA, GameStatus, SlotItem } from '../types/game.js';
+import { soundManager } from '../utils/audio.js';
 
 interface LiveWheelProps {
   gameStatus: GameStatus;

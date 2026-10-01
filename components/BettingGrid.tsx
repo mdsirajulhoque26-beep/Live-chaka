@@ -1,6 +1,6 @@
 import React from 'react';
-import { SLOTS_DATA, SlotItem, GameStatus } from '../types/game';
-import { soundManager } from '../utils/audio';
+import { SLOTS_DATA, SlotItem, GameStatus } from '../types/game.js';
+import { soundManager } from '../utils/audio.js';
 import { Crown, Gem, Zap, Clover, Flame, Rocket, Trash2, ArrowUpCircle } from 'lucide-react';
 
 interface BettingGridProps {
